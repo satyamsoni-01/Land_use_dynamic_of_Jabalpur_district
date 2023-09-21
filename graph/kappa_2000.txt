@@ -1,0 +1,47 @@
+(Mon Nov 29 22:01:53 2021)                                                      
+r.kappa classification=Final_seg_train_out_class@JBP_2000_PERMANENT reference=GE_TEST_DATA_NEW_MLC_class@JBP_2000_PERMANENT
+			ACCURACY ASSESSMENT
+LOCATION: JBP_2000_DATA_SET				Mon Nov 27 22:01:54 2021
+MASK: none
+MAPS: MAP1 = Reclass of GE_TEST_DATA_NEW_MLC@JBP_2000_PERMANENT in JBP_2000_PERMANENT (GE_TEST_DATA_NEW_MLC_class@JBP_2000_PERMANENT in JBP_2000_PERMANENT)
+      MAP2 = Reclass of Final_seg_train_out@JBP_2000_PERMANENT in JBP_2000_PERMANENT (Final_seg_train_out_class@JBP_2000_PERMANENT in JBP_2000_PERMANENT)
+Error Matrix (MAP1: reference, MAP2: classification)
+Panel #1 of 1
+			  MAP1
+     cat#	1	2	3	4	5	
+ M     1	49130	128777	29359	959	130596	
+ A     2	0	465602	0	0	0	
+ P     3	0	607933	360538	281	81	
+ 2     4	27165	1142983	205154	129428	89424	
+       5	72	55943	294480	8	649782	
+Col Sum		76367	2401238	889531	130676	869883	
+cat#	Row Sum
+F     1     49130      128777       29359         959      130596     338821
+i     2         0      465602           0           0           0    1143244
+n     3         0      607933      360538         281          81    2916500
+a     4     27165     1142983      205154      129428       89424    6283910
+l     5        72       55943      294480           8      649782   10651605
+ 21334080
+Cats	% Comission	% Omission	Estimated Kappa
+1	85.499718	35.665929	0.129788
+2	0.000000	80.609919	1.000000
+3	62.786363	59.468754	0.211562
+4	91.881086	0.955034	0.052852
+5	35.040314	25.302368	0.562454
+Kappa		Kappa Variance
+0.55721 	0.000000
+Obs Correct	Total Obs	% Observed Correct
+2746403		4367695		62.879934
+MAP1 Category Description
+1:  build
+2:  agriculture
+3:  forest
+4:  water
+5:  openspace
+MAP2 Category Description
+1:  buildup
+2:  agriculture
+3:  forest
+4:  water
+5:  openspace
+(Mon Nov 29 22:01:54 2021) Command finished (0 sec)                             
