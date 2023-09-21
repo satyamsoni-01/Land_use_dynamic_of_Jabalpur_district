@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="cp1252"?>
+<!DOCTYPE gxw SYSTEM "grass-gxw.dtd">
+<gxw>
+    <session>
+        <database>D:\Satyam soni\Gioinformatics\GIS_project\jabalpur_grass_location</database>
+        <location>JBP_2000_DATA_SET</location>
+        <mapset>JBP_2000_PERMANENT</mapset>
+    </session>
+    <layer_manager dim="274,182,525,600">
+    </layer_manager>
+    <display name="Display 1" render="1" mode="0" showCompExtent="1" alignExtent="1" constrainRes="0" showStatusbar="1" showToolbars="1" dim="677,70,825,600" extent="342455.504636,2514595.707134,468518.425819,2591295.700072,-0.500000,0.500000" tbres="1.000000" viewMode="2d" >
+        <layer type="raster" name="JBP_2000_S1_B7_RESCALE_EXT@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B7_RESCALE_EXT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B6_RESCALE_EXT@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B6_RESCALE_EXT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B5_RESCALE_EXT@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B5_RESCALE_EXT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B4_RESCALE_EXT@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B4_RESCALE_EXT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B3_RESCALE_EXT@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B3_RESCALE_EXT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B2_RESCALE_EXT@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B2_RESCALE_EXT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="JABALPUR_NEW_BOUNDARIES_DATA_SET@PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>JABALPUR_NEW_BOUNDARIES_DATA_SET@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>255:255:0:255</value>
+                </parameter>
+                <parameter name="fill_color">
+                    <value>none</value>
+                </parameter>
+                <parameter name="width">
+                    <value>2</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B2_RESCALE@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B2_RESCALE@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B3_RESCALE@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B3_RESCALE@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B4_RESCALE@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B4_RESCALE@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B5_RESCALE@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B5_RESCALE@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B7_RESCALE@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B7_RESCALE@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B6_RESCALE@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B6_RESCALE@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B6@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B6@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B7@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B7@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B5@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B5@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B4@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B4@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_UNSUP_8CLUSTER_OUT@JBP_2000_PERMANENT" checked="1" opacity="1.000000">
+            <selected />
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_UNSUP_8CLUSTER_OUT@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_FCC@JBP_2000_PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_FCC@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B3@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B3@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_2000_S1_B2@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_2000_S1_B2@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JBP_NEW_RASTER_DATA_SET@JBP_2000_PERMANENT" checked="0" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JBP_NEW_RASTER_DATA_SET@JBP_2000_PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <overlay name="d.legend">
+            <parameter name="raster">
+                <value>JBP_2000_S1_UNSUP_8CLUSTER_OUT@JBP_2000_PERMANENT</value>
+            </parameter>
+            <parameter name="at">
+                <value>12.0,57.0,4.7,7.7</value>
+            </parameter>
+        </overlay>
+    </display>
+</gxw>
